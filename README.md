@@ -44,8 +44,23 @@ bash all_run.sh
 
 # Citation
 
-TBA
+If any of the theory or code is useful to your research please consider citing our pre-print.
+
+```
+@article {GNNC2L,
+	author = {Ramon Vinas and Paul Scherer and Nikola Simidjievski and Mateja Jamnik and Pietro Lio},
+	title = {Spatio-relational inductive biases in spatial cell-type deconvolution},
+	elocation-id = {2023.05.19.541474},
+	year = {2023},
+	doi = {10.1101/2023.05.19.541474},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Spatial transcriptomic technologies profile gene expression in-situ, facilitating the spatial characterisation of molecular phenomena within tissues, yet often at multi-cellular resolution. Computational approaches have been developed to infer fine-grained cell-type compositions across locations, but they frequently treat neighbouring spots independently of each other. Here we present GNN-C2L, a flexible deconvolution approach that leverages proximal inductive biases to propagate information along adjacent spots. In performance comparison on simulated and semi-simulated datasets, GNN-C2L achieves increased deconvolution performance over spatial-agnostic variants. We believe that accounting for spatial inductive biases can yield improved characterisation of cell-type heterogeneity in tissues.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2023/05/22/2023.05.19.541474},
+	eprint = {https://www.biorxiv.org/content/early/2023/05/22/2023.05.19.541474.full.pdf},
+	journal = {bioRxiv}
+}
+```
 
 # Acknowledgements
 
-We would like to acknowledge the authors of Cell2Location for the original cell2location package available at: https://github.com/BayraktarLab/cell2location
+We would like to acknowledge the authors of Cell2Location for the original cell2location package available at: https://github.com/BayraktarLab/cell2location 
